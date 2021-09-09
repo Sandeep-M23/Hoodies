@@ -155,7 +155,7 @@
 	.slider-wrapper,
 	.slide {
 	  max-width: 900px;
-	  height: calc(80vh - 40vh);
+	  height: calc(80vh - 50vh);
 	  position: relative;
 	}
 	 .nextButton {

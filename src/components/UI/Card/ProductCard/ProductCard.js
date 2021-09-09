@@ -18,9 +18,9 @@ const useStyles = makeStyles((theme) => ({
       width: "37vh",
       height: "73vh",
     },
-    [theme.breakpoints.down("md")]: {
-      width: "25vh",
-      height: "60vh",
+    [theme.breakpoints.down("sm")]: {
+      width: "20vh",
+      height: "45vh",
     },
   },
   media: {
@@ -28,23 +28,24 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       height: "65%",
     },
-    [theme.breakpoints.down("md")]: {
-      height: "70%",
+    [theme.breakpoints.down("sm")]: {
+      height: "60%",
     },
   },
   Info: {
     margin: "10px 10px 5px 10px",
     padding: "10px",
-    [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("sm")]: {
       margin: "3px",
+      padding:'5px'
     },
   },
   h4: {
     marginTop: "10px",
     color: "#fe5252",
     fontSize: "25px",
-    [theme.breakpoints.down("md")]: {
-      fontSize: "20px",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "15px",
     },
   },
   box: {
@@ -52,14 +53,14 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "space-between",
     margin: "10px 0px",
-    [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("sm")]: {
       margin: "15px 0px",
     },
   },
   h5: {
     fontSize: "1.6rem",
-    [theme.breakpoints.down("md")]: {
-      fontSize: "1.3rem",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "1.2rem",
     },
   },
 }));

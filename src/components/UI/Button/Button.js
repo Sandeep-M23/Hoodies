@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "#8f1a9b",
     },
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1rem !important",
+      fontSize: "0.8rem !important",
     },
   },
   ProceedButton: {

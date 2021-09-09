@@ -21,10 +21,10 @@ const useStyles = makeStyles((theme) => ({
       border: "none",
     },
     [theme.breakpoints.down("xs")]: {
-      fontSize: "1rem",
+      fontSize: "0.5rem",
     },
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1.3rem",
+      fontSize: "0.7rem",
     },
   },
 }));

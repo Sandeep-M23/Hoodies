@@ -11,8 +11,8 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "20px",
     borderRadius: "15px",
     [theme.breakpoints.down("sm")]: {
-      width: "25%",
-      height: "35vh",
+      width: "20%",
+      height: "25vh",
     },
   },
   title: {
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "lighter",
     padding: "5px",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "35px",
+      fontSize: "25px",
     },
   },
   h5: {
@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "5px",
     margin: "3px",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "20px",
+      fontSize: "15px",
       padding: 0,
     },
   },
@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1.9rem",
+      fontSize: "1.4rem",
     },
   },
 }));

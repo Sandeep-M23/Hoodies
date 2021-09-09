@@ -15,8 +15,8 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "10px",
     margin: "15px",
     [theme.breakpoints.down("md")]: {
-      width: "37vh",
-      height: "70vh",
+      width: "34vh",
+      height: "60vh",
     }
   },
   media: {
@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
       height: "65%",
     },
     [theme.breakpoints.down("sm")]: {
-      height: "73%",
+      height: "65%",
     },
   },
   Info: {

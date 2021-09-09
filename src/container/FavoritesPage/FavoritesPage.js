@@ -25,19 +25,20 @@ const useStyles = makeStyles((theme) => ({
     display: "inline-block",
     margin: '20px auto 30px auto',
     [theme.breakpoints.down("sm")]:{
-      fontSize: "40px",
+      fontSize: "30px",
     },
     "&::before": {
       position: "absolute",
       top: "35px",
       left: "-100px",
       width: "80px",
-      height: "4px",
+      height: "3px",
       content: '""',
       backgroundColor: "#000",
       [theme.breakpoints.down("sm")]:{
-        top: "30px",
-        width: "70px",
+        top: "20px",
+        left:'-70px',
+        width: "50px",
       },
     },
     "&::after": {
@@ -45,12 +46,13 @@ const useStyles = makeStyles((theme) => ({
       top: "35px",
       right: "-100px",
       width: "80px",
-      height: "4px",
+      height: "3px",
       content: '""',
       backgroundColor: "#000",
       [theme.breakpoints.down("sm")]:{
-        top: "30px",
-        width: "70px",
+        top: "20px",
+        right:'-70px',
+        width: "50px",
       },
     },
   },
@@ -70,11 +72,13 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "5rem",
     },
     [theme.breakpoints.down("sm")]:{
-      fontSize: "4.5rem",
+      letterSpacing: "3px",
+      fontSize: "2.5rem",
+      bottom:'45%'
     },
     [theme.breakpoints.down("xs")]:{
       letterSpacing: "3px",
-      fontSize: "3rem",
+      fontSize: "2.5rem",
       bottom:'45%'
     },
   }

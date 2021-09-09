@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
     borderTopLeftRadius: "15px",
     borderBottomLeftRadius: "15px",
     [theme.breakpoints.down("sm")]: {
-      width: "23%",
-      height:'25vh'
+      width: "20%",
+      height:'20vh'
     },
   },
   Box1: {
@@ -37,14 +37,14 @@ const useStyles = makeStyles((theme) => ({
     margin: "0px 10px",
     alignItems: "center",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1.8rem",
+      fontSize: "1.4rem",
     },
   },
   span1: {
     fontSize: "1.7rem",
     fontWeight: "500",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1.5rem",
+      fontSize: "1.2rem",
     },
   },
   Box2: {
@@ -79,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-evenly",
     alignItems: "center",
     [theme.breakpoints.down("sm")]: {
-      margin: "20px",
+      margin: "10px",
     },
   },
   formControl: {
@@ -119,7 +119,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "15px",
     padding: "5px",
     [theme.breakpoints.down("sm")]: {
-      margin: "5px",
+      margin: "3px",
       padding: "2px",
     },
   },
@@ -132,10 +132,10 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "#9615a2",
     },
     [theme.breakpoints.down("sm")]: {
-      fontSize: "10px",
+      fontSize: "7px",
     },
     [theme.breakpoints.down("xs")]: {
-      fontSize: "7px",
+      fontSize: "5px",
     },
   },
 }));

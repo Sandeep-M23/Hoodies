@@ -17,8 +17,8 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     [theme.breakpoints.down('sm')]: {
-      padding:"20px",
-      margin:"opx auto"
+      padding:"15px",
+      margin:"0px auto"
     }
   },
   title: {
@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     display: "inline-block",
     margin: "20px auto 30px auto",
     [theme.breakpoints.down("sm")]:{
-      fontSize: "40px",
+      fontSize: "30px",
     },
     "&::before": {
       position: "absolute",
@@ -41,7 +41,8 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "#000",
       [theme.breakpoints.down("sm")]:{
         top: "30px",
-        width: "70px",
+        width: "40px",
+        left:'-65px'
       },
     },
     "&::after": {
@@ -54,7 +55,8 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "#000",
       [theme.breakpoints.down("sm")]:{
         top: "30px",
-        width: "70px",
+        width: "40px",
+        right:'-65px'
       },
     },
   },
@@ -69,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
     display: "inline-block",
     margin: "20px auto 30px auto",
     [theme.breakpoints.down('sm')]: {
-      fontSize:'25px'
+      fontSize:'20px'
     }
   },
 }));

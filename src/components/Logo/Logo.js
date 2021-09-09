@@ -12,10 +12,16 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
       backgroundColor: "#A21CAF",
     },
+    [theme.breakpoints.down("sm")]: {
+      padding:'5px'
+    },
   },
   Image: {
     height: "auto",
     maxWidth: "50px",
+    [theme.breakpoints.down("sm")]: {
+      maxWidth:'35px'
+    },
   },
 }));
 

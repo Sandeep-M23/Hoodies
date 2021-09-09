@@ -50,6 +50,10 @@ const useStyles = makeStyles((theme) => ({
       height: "2px",
       content: '""',
       backgroundColor: "#000",
+      [theme.breakpoints.down("sm")]:{
+        width:'50px',
+        left:'-70px'
+      },
     },
     "&::after": {
       position: "absolute",
@@ -59,6 +63,10 @@ const useStyles = makeStyles((theme) => ({
       height: "2px",
       content: '""',
       backgroundColor: "#000",
+      [theme.breakpoints.down("sm")]:{
+        width:'50px',
+        right:'-70px'
+      },
     },
   },
 }));

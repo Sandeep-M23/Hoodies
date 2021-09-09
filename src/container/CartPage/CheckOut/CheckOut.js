@@ -45,8 +45,8 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     display: "inline-block",
     margin: "20px auto 30px auto",
-    [theme.breakpoints.down("xs")]: {
-      fontSize: "40px",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "30px",
     },
     "&::before": {
       position: "absolute",
@@ -56,9 +56,10 @@ const useStyles = makeStyles((theme) => ({
       height: "4px",
       content: '""',
       backgroundColor: "#000",
-      [theme.breakpoints.down("xs")]: {
-        top: "30px",
-        width: "70px",
+      [theme.breakpoints.down("sm")]: {
+        top: "25px",
+        width: "40px",
+        left:'-70px'
       },
     },
     "&::after": {
@@ -69,9 +70,10 @@ const useStyles = makeStyles((theme) => ({
       height: "4px",
       content: '""',
       backgroundColor: "#000",
-      [theme.breakpoints.down("xs")]: {
-        top: "30px",
-        width: "70px",
+      [theme.breakpoints.down("sm")]: {
+        top: "25px",
+        width: "40px",
+        right:'-70px'
       },
     },
   },
@@ -111,6 +113,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#000",
     "&:hover": {
       backgroundColor: "#000000cf",
+    },
+    [theme.breakpoints.down("sm")]: {
+      fontSize:'13px'
     },
   },
 }));

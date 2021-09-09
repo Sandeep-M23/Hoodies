@@ -31,8 +31,8 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       fontSize: "2rem",
     },
-    [theme.breakpoints.down("xs")]: {
-      fontSize: "1.5rem",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "1.3rem",
     },
   },
   paragraph: {
