@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down("xs")]:{
       letterSpacing: "3px",
-      fontSize: "2.5rem",
+      fontSize: "2rem",
       bottom:'45%'
     },
   }

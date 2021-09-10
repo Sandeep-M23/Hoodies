@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "3rem",
     },
     [theme.breakpoints.down("sm")]: {
-      fontSize: "2rem",
+      fontSize: "1.7rem",
     },
   },
   span1: {
@@ -90,7 +90,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "1.2rem",
     },
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1rem",
+      fontSize: "0.7rem",
       margin: "5px",
       padding: "5px",
     },
@@ -105,7 +105,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "1.3rem",
     },
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1rem",
+      fontSize: "0.7rem",
       margin: "5px",
       padding: "5px",
     },
@@ -120,7 +120,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "1.2rem",
     },
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1rem",
+      fontSize: "0.7rem",
       margin: "5px",
       padding: "5px",
     },
@@ -166,7 +166,7 @@ const InfoCard = (props) => {
           <Box component="div" className={Styles.Box3}>
             <AddToCartButton
               clicked={props.addToCart}
-              style={{ width: "100%", padding: "10px", fontSize: "1.5rem" }}
+              style={{ width: "100%", padding: "10px", fontSize: "1.3rem" }}
             />
           </Box>
         </Box>

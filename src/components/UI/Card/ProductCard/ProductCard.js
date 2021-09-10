@@ -19,8 +19,8 @@ const useStyles = makeStyles((theme) => ({
       height: "73vh",
     },
     [theme.breakpoints.down("sm")]: {
-      width: "20vh",
-      height: "45vh",
+      width: "23vh",
+      height: "54vh",
     },
   },
   media: {
@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
   h5: {
     fontSize: "1.6rem",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1.2rem",
+      fontSize: "1rem",
     },
   },
 }));
