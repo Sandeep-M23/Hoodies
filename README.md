@@ -1,8 +1,7 @@
 # Hoodies App
 
-### An E-commerce App using which you could purchase Fancy and Modern Hoodies.
-### This Web App is Developed using [React.js](https://reactjs.org/) and also makes use of [Material-UI](https://material-ui.com)
-
+### An E-commerce Website using which you could purchase Fancy and Modern Hoodies.
+### This Web Application is Developed using [React.js](https://reactjs.org/) and also makes use of [Material-UI](https://material-ui.com) & [Firebase](https://firebase.google.com/)
 ## Available Scripts
 
 In the project directory, you can run:
