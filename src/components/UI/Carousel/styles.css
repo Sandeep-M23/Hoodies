@@ -35,7 +35,7 @@
 	top: 50%;
 	transform: translateY(-50%);
 	z-index: 10;
-	background: url("https://image.flaticon.com/icons/png/512/327/327619.png") no-repeat center center /
+	background: url("https://cdn-icons-png.flaticon.com/512/318/318476.png") no-repeat center center /
 	  40px;
 	width: 45px;
 	height:45px;
@@ -47,7 +47,7 @@
   
   .previousButton:hover,
   .nextButton:hover {
-	background: url("https://image.flaticon.com/icons/png/512/327/327619.png") no-repeat center center /
+	background: url("https://cdn-icons-png.flaticon.com/512/318/318476.png") no-repeat center center /
 	  75px;
 	  background-color:white;
   }
